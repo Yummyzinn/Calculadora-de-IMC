@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+
+body{
+    background-image: radial-gradient(circle at center center, rgb(71, 71, 71),rgb(8, 8, 8));
+    align-items: center;
+}
+
+
+button{
+    margin-top:20px ;
+    height: 100px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(109, 146, 172);
+    font-size: 50px;
+    font-family: 'Poppins' ;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 20px;
+    transition: 0.2s;
+
+    
+
+
+}
+button:hover{
+    
+    box-shadow: 0 0 5px rgb(62, 85, 88),     /* glow no botao */
+  0 0 15px rgb(40, 68, 77), 0 0 50px rgb(32, 72, 99),
+  0 0 10px rgb(37, 71, 77), 0 0 20px rgb(54, 76, 105);
+  height: 105px;
+  width: 305px;
+  transition: 0.5s;
+}
+#botao {
+width: 300px;
+}
+
+#botao2 {
+    width: 300px;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: rgb(17, 17, 17);
+    height: 600px;
+    width: 700px;
+    margin-left: 550px;
+    border-radius: 20px;
+}
+p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', ;
+    font-weight: 800;
+}
+
+.titulo {
+    color: aquamarine;
+    font-weight: 900;
+}
